@@ -1,5 +1,5 @@
 pub struct Color {
-    pub r: u8,
-    pub g: u8,
-    pub b: u8
+    pub r: u32,
+    pub g: u32,
+    pub b: u32,
 }
