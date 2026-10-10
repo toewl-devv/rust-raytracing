@@ -18,6 +18,8 @@ impl Camera {
     }
 
     pub fn display(&self, x: u32, y: u32) -> Color {
+        // transform using presentation:
+        
         // first find the position of x and y in coordinates
         // Actually, first make it as if the camera is in origin (use notes from presentation!) and
         // then find the stuff

@@ -15,12 +15,11 @@ pub fn dot(vec1: Vec3, vec2: Vec3) -> f64 {
     vec1.x * vec2.x + vec1.y * vec2.y + vec1.z * vec2.z
 }
 
-/*
+// 23 31 12
 pub fn cross(vec1: Vec3, vec2: Vec3) -> Vec3 {
     Vec3 {
-        x: todo!(),
-        y: todo!(),
-        z: todo!()
+        x: vec1.y * vec2.z - vec1.z * vec2.y,
+        y: vec1.z * vec2.x - vec1.x * vec2.z,
+        z: vec1.x * vec2.y - vec1.y * vec2.x
     }
 }
-*/
